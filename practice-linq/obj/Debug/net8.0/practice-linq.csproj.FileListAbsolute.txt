@@ -1,0 +1,15 @@
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\bin\Debug\net8.0\practice-linq.exe
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\bin\Debug\net8.0\practice-linq.deps.json
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\bin\Debug\net8.0\practice-linq.runtimeconfig.json
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\bin\Debug\net8.0\practice-linq.dll
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\bin\Debug\net8.0\practice-linq.pdb
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.AssemblyInfoInputs.cache
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.AssemblyInfo.cs
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.csproj.CoreCompileInputs.cache
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.sourcelink.json
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.dll
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\refint\practice-linq.dll
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.pdb
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\practice-linq.genruntimeconfig.cache
+C:\Users\huawei\camp-work\practice-record-list-linq\practice-linq\obj\Debug\net8.0\ref\practice-linq.dll
