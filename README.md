@@ -165,3 +165,195 @@ No books are currently borrowed.
 3. **LINQ**: Utilized for querying and filtering collections, making operations like search and filtering efficient and readable.
 4. **Object-Oriented Design**: The `LibraryManager` class encapsulates all the management logic, demonstrating encapsulation and separation of concerns.
 
+## **Problem 4: Building a Simple E-Commerce Management System**
+
+**Objective:** This assignment will help you practice using **records**, **lists**, and **LINQ** in C#. You will create a simple e-commerce management system that allows users to manage products, customers, and orders using C#'s modern features.
+
+### **Project Overview:**
+
+You will create an e-commerce management system consisting of the following components:
+
+1. **Records**: Used for defining data structures like products, customers, and order records.
+2. **Lists**: Used for managing collections of products, customers, and orders.
+3. **LINQ**: Used for querying and filtering data in lists.
+
+### **Features to Implement:**
+
+1. **Manage Products**:
+   - Add new products to the store.
+   - Remove products from the store.
+   - Display all products.
+   - Search for products by name, category, or price range using LINQ.
+
+2. **Manage Customers**:
+   - Add new customers.
+   - Remove customers.
+   - Display all customers.
+   - Search for customers by name or email using LINQ.
+
+3. **Order Management**:
+   - Place an order: A customer can place an order for one or more products.
+   - Display all orders and filter orders using LINQ.
+   - Calculate the total cost of an order.
+
+### **Assignment Instructions:**
+
+1. **Create Records**:
+   - `Product`: Represents a product in the store.
+   - `Customer`: Represents a customer.
+   - `Order`: Represents an order containing customer details and products.
+
+2. **Create a Class `ECommerceManager`**:
+   - Manage collections of products, customers, and orders using lists.
+   - Implement methods to add, remove, search, and display products and customers.
+   - Implement methods to place and display orders.
+
+3. **Create a Main Program to Test the System**:
+   - Use the `ECommerceManager` to manage products, customers, and order operations.
+
+
+### **Expected Output:**
+
+```
+Product 'Laptop' added to the store.
+Product 'Phone' added to the store.
+Product 'Book' added to the store.
+Customer 'Alice Johnson' added to the store.
+Customer 'Bob Smith' added to the store.
+
+Store Products:
+Product { Id = 1, Name = Laptop, Category = Electronics, Price = 1200, IsAvailable = True }
+Product { Id = 2, Name = Phone, Category = Electronics, Price = 800, IsAvailable = True }
+Product { Id = 3, Name = Book, Category = Books, Price = 20, IsAvailable = True }
+
+Store Customers:
+Customer { Id = 1, Name = Alice Johnson, Email = alice@example.com }
+Customer { Id = 2, Name = Bob Smith, Email = bob@example.com }
+
+Searching for products with 'Phone':
+Product { Id = 2, Name = Phone, Category = Electronics, Price = 800, IsAvailable = True }
+
+Placing an order:
+Order placed successfully for customer 'Alice Johnson'.
+
+Displaying all orders:
+Order ID: 1, Customer: Alice Johnson, Total: $2,000.00, Date: [Current Date]
+ - Laptop ($1,200.00)
+ - Phone ($800.00)
+```
+
+## **Problem 5 - CRUD APP: Building a Simple Employee Management System**
+
+**Objective:** This assignment will help you practice using **CRUD (Create, Read, Update, Delete)** operations, **filtering**, **sorting**, and **pagination** in C#. You will create a simple employee management system that allows users to manage employee records using lists and LINQ.
+
+### **Project Overview:**
+
+You will create an employee management system consisting of the following components:
+
+1. **CRUD Operations**: Manage employee records by adding, viewing, updating, and deleting entries.
+2. **Filtering**: Search employees by name, department, or position.
+3. **Sorting**: Sort employees by name, position, salary, or department.
+4. **Pagination**: Display employee records in pages to manage large sets of data.
+
+### **Features to Implement:**
+
+1. **Manage Employees**:
+   - Add new employees to the system.
+   - Update employee details.
+   - Remove employees from the system.
+   - Display all employees.
+
+2. **Filtering and Searching**:
+   - Search employees by name, position, or department using LINQ.
+
+3. **Sorting**:
+   - Sort employees by various fields (name, position, salary, department) using LINQ.
+
+4. **Pagination**:
+   - Display employee data in pages (e.g., 5 records per page) to make data presentation manageable.
+
+### **Assignment Instructions:**
+
+1. **Create a Class Named `Employee`:**
+   - The class should have the following properties:
+     - `Id` (int) - The employee ID.
+     - `Name` (string) - The employee's name.
+     - `Position` (string) - The employee's position.
+     - `Department` (string) - The department where the employee works.
+     - `Salary` (decimal) - The employee's salary.
+
+2. **Create a Class Named `EmployeeManager`:**
+   - This class will handle the management of employee records.
+   - Implement the following methods:
+     - `AddEmployee(Employee employee)`: Adds a new employee to the system.
+     - `UpdateEmployee(int id, Employee updatedEmployee)`: Updates an existing employee's details.
+     - `DeleteEmployee(int id)`: Removes an employee by ID.
+     - `GetAllEmployees()`: Returns a list of all employees.
+     - `SearchEmployees(string searchTerm)`: Filters employees by name, position, or department using LINQ.
+     - `SortEmployees(string sortBy)`: Sorts employees based on a given field using LINQ.
+     - `GetEmployeesByPage(int pageNumber, int pageSize)`: Retrieves a specific page of employees for pagination.
+
+3. **Create a Main Program to Test the System:**
+   - Use the `EmployeeManager` to demonstrate the CRUD operations, filtering, sorting, and pagination.
+
+### **Expected Output:**
+
+```
+Employee 'Alice Johnson' added successfully.
+Employee 'Bob Smith' added successfully.
+Employee 'Charlie Brown' added successfully.
+Employee 'David Wilson' added successfully.
+Employee 'Eva White' added successfully.
+
+Displaying all employees:
+ID: 1, Name: Alice Johnson, Position: Manager, Department: HR, Salary: $75,000.00
+ID: 2, Name: Bob Smith, Position: Developer, Department: IT, Salary: $65,000.00
+ID: 3, Name: Charlie Brown, Position: Designer, Department: Marketing, Salary: $55,000.00
+ID: 4, Name: David Wilson, Position: Analyst, Department: Finance, Salary: $60,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+
+Updating Bob Smith:
+Employee 'Bob Smith' updated successfully.
+ID: 1, Name: Alice Johnson, Position: Manager, Department: HR, Salary: $75,000.00
+ID: 2, Name: Bob Smith, Position: Senior Developer, Department: IT, Salary: $70,000.00
+ID: 3, Name: Charlie Brown, Position: Designer, Department: Marketing, Salary
+
+: $55,000.00
+ID: 4, Name: David Wilson, Position: Analyst, Department: Finance, Salary: $60,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+
+Deleting Charlie Brown:
+Employee 'Charlie Brown' deleted successfully.
+ID: 1, Name: Alice Johnson, Position: Manager, Department: HR, Salary: $75,000.00
+ID: 2, Name: Bob Smith, Position: Senior Developer, Department: IT, Salary: $70,000.00
+ID: 4, Name: David Wilson, Position: Analyst, Department: Finance, Salary: $60,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+
+Searching employees by term 'Developer':
+ID: 2, Name: Bob Smith, Position: Senior Developer, Department: IT, Salary: $70,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+
+Sorting employees by salary:
+ID: 4, Name: David Wilson, Position: Analyst, Department: Finance, Salary: $60,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+ID: 2, Name: Bob Smith, Position: Senior Developer, Department: IT, Salary: $70,000.00
+ID: 1, Name: Alice Johnson, Position: Manager, Department: HR, Salary: $75,000.00
+
+Displaying employees (Page 1, 2 per page):
+ID: 1, Name: Alice Johnson, Position: Manager, Department: HR, Salary: $75,000.00
+ID: 2, Name: Bob Smith, Position: Senior Developer, Department: IT, Salary: $70,000.00
+
+Displaying employees (Page 2, 2 per page):
+ID: 4, Name: David Wilson, Position: Analyst, Department: Finance, Salary: $60,000.00
+ID: 5, Name: Eva White, Position: Developer, Department: IT, Salary: $68,000.00
+```
+
+### **Concepts Covered:**
+
+1. **CRUD Operations**: Add, update, delete, and display employees.
+2. **Filtering**: Search employees using LINQ based on various fields.
+3. **Sorting**: Sort employees by different attributes using LINQ.
+4. **Pagination**: Display employees page by page using LINQ.
+
+This assignment provides a practical approach to working with CRUD operations, filtering, sorting, and pagination, giving you hands-on experience with data management in C#.
+
